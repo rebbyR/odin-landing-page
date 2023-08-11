@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
+    padding-bottom: 50px;
 }
 
 .header h3 {
@@ -13,9 +14,55 @@
     font-size: 24px;
 }
 
+.header ul {
+    list-style: none;
+}
+
 .header li {
     display: inline-block;
     margin: auto 20px;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.upper {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.upper h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+.upper p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.upper img {
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
 }
