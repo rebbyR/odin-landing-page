@@ -37,8 +37,9 @@ body {
 .upper {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
     padding-bottom: 50px;
+    flex: 1;
+    height: 500px;
 }
 
 .upper button {
@@ -46,7 +47,6 @@ body {
     color: #e5e7eb;
     border-radius: 10px;
     border: none;
-    padding: 6px 12px;
     font-size: 1.2rem;
 }
 
@@ -80,11 +80,10 @@ body {
 }
 
 .upper img {
-    height: 10%;
+    height: 50%;
     width: auto;
     border-radius: 25px;
-    display: flex;
-    flex: 1;
+    display: inline-block;
 }
 
 .middle-page {
