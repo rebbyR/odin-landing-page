@@ -2,8 +2,13 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: #1f2937;
+}
+
 .full-page {
-    margin: 0 50px;
+    margin: 0 15%;
+
 }
 
 .header {
@@ -47,12 +52,20 @@
 
 .left {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.left #button {
+    align-self: flex-start;
+    max-width: 50%;
 }
 
 .right {
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .upper h1 {
@@ -67,7 +80,14 @@
 }
 
 .upper img {
-    width: 50%;
-    height: auto;
+    height: 10%;
+    width: auto;
     border-radius: 25px;
+    display: flex;
+    flex: 1;
+}
+
+.middle-page {
+    background-color: white;
+    text-align: center;
 }
