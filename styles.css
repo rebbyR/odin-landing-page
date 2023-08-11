@@ -1,0 +1,21 @@
+* {
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.header h3 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header li {
+    display: inline-block;
+    margin: auto 20px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
