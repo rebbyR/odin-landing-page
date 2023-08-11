@@ -2,6 +2,10 @@
     font-family: sans-serif;
 }
 
+.full-page {
+    margin: 0 50px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -29,6 +33,7 @@
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .upper button {
