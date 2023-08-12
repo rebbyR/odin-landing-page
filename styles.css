@@ -3,12 +3,7 @@
 }
 
 body {
-    background-color: #1f2937;
-}
-
-.full-page {
-    margin: 0 15%;
-
+    margin: 0;
 }
 
 .header {
@@ -25,24 +20,24 @@ body {
 
 .header ul {
     list-style: none;
+    display: flex;
+    gap: 24px;
 }
 
 .header li {
-    display: inline-block;
-    margin: auto 20px;
     color: #e5e7eb;
     font-size: 18px;
 }
 
-.upper {
+.upper-middle {
     background-color: #1f2937;
     display: flex;
     padding-bottom: 50px;
     flex: 1;
-    height: 500px;
+    height: 25%;
 }
 
-.upper button {
+.upper-middle button {
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 10px;
@@ -57,9 +52,10 @@ body {
     margin-right: 50px;
 }
 
-.left #button {
+.left button {
     align-self: flex-start;
-    max-width: 50%;
+    width: 20%;
+    min-height: 35px;
 }
 
 .right {
@@ -68,25 +64,25 @@ body {
     justify-content: flex-end;
 }
 
-.upper h1 {
+.upper-middle h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8
 }
 
-.upper p {
+.upper-middle p {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.upper img {
-    height: 50%;
-    width: auto;
+.upper-middle img {
     border-radius: 25px;
     display: inline-block;
+    flex-grow: 1;
+    height: 50%;
 }
 
-.middle-page {
+.lower-middle {
     background-color: white;
     text-align: center;
 }
