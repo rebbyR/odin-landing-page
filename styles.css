@@ -6,11 +6,16 @@ body {
     margin: 0;
 }
 
+.upper-half {
+    background-color: #1f2937;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
     padding-bottom: 50px;
+    margin: 0 75px;
 }
 
 .header h3 {
@@ -35,6 +40,7 @@ body {
     padding-bottom: 50px;
     flex: 1;
     height: 25%;
+    margin: 0 75px;
 }
 
 .upper-middle button {
@@ -54,8 +60,9 @@ body {
 
 .left button {
     align-self: flex-start;
-    width: 20%;
+    width: auto;
     min-height: 35px;
+    overflow: hidden;
 }
 
 .right {
@@ -77,9 +84,7 @@ body {
 
 .upper-middle img {
     border-radius: 25px;
-    display: inline-block;
-    flex-grow: 1;
-    height: 50%;
+    overflow: hidden;
 }
 
 .lower-middle {
