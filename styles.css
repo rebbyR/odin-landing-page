@@ -1,9 +1,7 @@
-* {
-    font-family: sans-serif;
-}
 
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .upper-half {
@@ -15,7 +13,7 @@ body {
     justify-content: space-between;
     background-color: #1f2937;
     padding-bottom: 50px;
-    margin: 0 75px;
+    margin: 0 350px;
 }
 
 .header h3 {
@@ -40,7 +38,7 @@ body {
     padding-bottom: 50px;
     flex: 1;
     height: 25%;
-    margin: 0 75px;
+    margin: 0 350px;
 }
 
 .upper-middle button {
@@ -84,7 +82,8 @@ body {
 
 .upper-middle img {
     border-radius: 25px;
-    overflow: hidden;
+    width: 100%;
+    height: auto;
 }
 
 .lower-middle {
