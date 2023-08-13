@@ -211,3 +211,12 @@ body {
     font-size: 18px;
     margin: 0;
 }
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
