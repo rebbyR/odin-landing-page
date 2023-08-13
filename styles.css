@@ -156,3 +156,58 @@ body {
     font-size: 24px;
     color: #1f2937;
 }
+
+.action-section {
+    margin: 50px 350px;
+}
+
+.call {
+    background-color: #3882f6;
+    border-radius: 25px;
+    padding: 30px;
+    display: flex;
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    margin-left: 50px;
+}
+
+.call-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.call-right button {
+    border: 2px solid #e5e7eb;
+    color: white;
+    border-radius: 25px;
+    background-color: #3882f6;
+    align-self: center;
+    overflow: hidden;
+    min-height: 35px;
+    width: auto;
+    font-size: 1.2rem;
+    padding: 12px;
+    font-weight: bold;
+
+}
+
+.call-title {
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    margin: 0;
+}
+
+.call-sub {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+}
